@@ -1,11 +1,15 @@
 class Main {
+  public static void main(String[] args) {
 
-public static void main(String[] args) {
-  double base = 4;
-  double height = 2;
+    int a = 3;
+    int b = 2;
 
-  double area = base*height/2;
-  
-    System.out.println("삼각형의 면적은" + area+ "입니다.");
+    if (a > b) {
+      System.out.println("a가 큰 수 입니다.");
+    } else if (a < b) {
+      System.out.println("b가 큰 수 입니다.");
+    } else {
+      System.out.println("a와 b는 같습니다.");
+    }
   }
 }
